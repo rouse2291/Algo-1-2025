@@ -2,19 +2,26 @@ package Ejercicios1;
 
 public class Ejercicio4 {
     public static void main(String[] args) {
-        System.out.println("_________________________________________________");
-        System.out.println("| Lunes | Martes | Miercoles | Jueves | Viernes |");
-        System.out.println("_________________________________________________");
-        System.out.println("|Computer  |\tOrdenador  |");
-        System.out.println("|Student   |\tAlumno/a   |");
-        System.out.println("|Cat       |\tGato       |");
-        System.out.println("|Penguin   |\tPingüino   |");
-        System.out.println("|Machine   |\tMaquina    |");
-        System.out.println("|Nature    |\tNaturaleza |");
-        System.out.println("|Light     |\tLuz        |");
-        System.out.println("|Greem     |\tVerde      |");
-        System.out.println("|Book      |\tLibro      |");
-        System.out.println("|Pyramind  |\tPiramide   |");
-        System.out.println("|__________|_______________|");
+        System.out.println("____________________________________________________________________________");
+        System.out.println("|   Lunes   |    Martes    |   Miercoles   |     Jueves    |     Viernes   |");
+        System.out.println("____________________________________________________________________________");
+        System.out.println("|Algoritmos |              | Calculo I     |               |               |");
+        System.out.println("|___________|______________|_______________|_______________|_______________|");
+        System.out.println("|           |              | Calculo I     |               | Ing. Sistemas |");
+        System.out.println("|___________|______________|_______________|_______________|_______________|");
+        System.out.println("|           |              | Ing. Sistemas | Algoritmos    | Ing. Sistemas |");
+        System.out.println("|___________|______________|_______________|_______________|_______________|");
+        System.out.println("|           |              | Ing. Sistemas | Algoritmos    | Investigacion |");
+        System.out.println("|___________|______________|_______________|_______________|_______________|");
+        System.out.println("|           |              | Investigacion |               | Investigacion |");
+        System.out.println("|___________|______________|_______________|_______________|_______________|");
+        System.out.println("|           |              | Investigacion |               |               |");
+        System.out.println("|___________|______________|_______________|_______________|_______________|");
+        System.out.println("|           |              |               |               |               |");
+        System.out.println("|___________|______________|_______________|_______________|_______________|");
+        System.out.println("|Calculo I  |              | Estadistica   | Mate discreta |               |");
+        System.out.println("|___________|______________|_______________|_______________|_______________|");
+        System.out.println("|           |Mate discreta |               |               |               |");
+        System.out.println("|___________|______________|_______________|_______________|_______________|");
     }
 }
