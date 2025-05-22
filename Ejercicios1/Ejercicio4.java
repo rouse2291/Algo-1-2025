@@ -2,9 +2,9 @@ package Ejercicios1;
 
 public class Ejercicio4 {
     public static void main(String[] args) {
-        System.out.println("____________________________________________________________________________");
+        System.out.println(" __________________________________________________________________________ ");
         System.out.println("|   Lunes   |    Martes    |   Miercoles   |     Jueves    |     Viernes   |");
-        System.out.println("____________________________________________________________________________");
+        System.out.println("|__________________________________________________________________________|");
         System.out.println("|Algoritmos |              | Calculo I     |               |               |");
         System.out.println("|___________|______________|_______________|_______________|_______________|");
         System.out.println("|           |              | Calculo I     |               | Ing. Sistemas |");
