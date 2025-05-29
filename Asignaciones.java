@@ -1,0 +1,23 @@
+public class Asignaciones {
+    public static void main(String[] args) {
+        
+        int x = 2;
+        int y = 9;
+
+        int suma = x + y;
+
+        System.out.println("La suma es: "+suma); 
+
+        int resta = x - y;
+
+        System.out.println("La resta es: "+resta); 
+        
+        int multi = x * y;
+
+        System.out.println("La multiplicacion es: "+multi); 
+
+        double divi = (double)x / (double)y;                             
+
+        System.out.println("La division es: "+divi); 
+    }
+}
