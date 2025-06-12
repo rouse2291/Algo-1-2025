@@ -13,7 +13,6 @@ public class LeerDatosScanner {
        String nombre = s.next();
        int edad = s.nextInt();
 
-
         System.out.println("Tu  nombre es "+nombre+" y tu edad es "+edad);
 
     }
