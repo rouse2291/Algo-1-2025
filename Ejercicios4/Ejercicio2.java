@@ -7,20 +7,24 @@ public class Ejercicio2 {
 
         Scanner Teclado = new Scanner(System.in);
 
-        double num1, num2,x;
+        double a, b,x;
         
         System.out.println("Este programa solo hace una ecuacion de de primer grado del tipo ax+b)");
-        System.out.println("Ingrese El primer numero (que seria a): ");
+        System.out.println("Ingrese El primer numero (que seria a mayor a 0): ");
 
-        num1 = Teclado.nextDouble();
+        a = Teclado.nextDouble();
 
-        System.out.println("Ingrese el segundo numero (que seria b): ");
+        System.out.println("Ingrese el segundo numero (que seria b mayor a 0): ");
 
-        if (x <= 0) {
-            
+        b = Teclado.nextDouble();
+
+        x = (b-0)/-a;
+
+        if (x > 0) {
+            System.out.println("El valor de x es: "+x);
             
         } else {
-            
+            System.out.println("Esta ecuacion no tien soluciones reales. ");
         }
 
 
