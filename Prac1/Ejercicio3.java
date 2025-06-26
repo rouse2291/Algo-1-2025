@@ -19,9 +19,6 @@ public class Ejercicio3 {
             
         }
             System.out.println("El precio de su entrada es: "+precio+" soles");
-
-
-
     }
     
 }
