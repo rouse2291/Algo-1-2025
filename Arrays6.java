@@ -11,10 +11,10 @@ public class Arrays6 {
 
         int franjas;
 
-        System.out.println("¿Cuantas franjas quieres para la banders?");
+        System.out.println("¿Cuantas franjas quieres para la bandera?");
         franjas = teclado.nextInt();
 
-        System.out.println("------------------");
+        System.out.println("-----------------------");
         for (int i = 0; i < franjas; i++) {
             System.out.println(color [(int)(Math.random()*6)]);
             System.out.println("-----------------------");
