@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Arrays6",
+            "request": "launch",
+            "mainClass": "Arrays6",
+            "projectName": "Algo 1 2025_e0061383"
+        },
+        {
+            "type": "java",
             "name": "Ejercicio10",
             "request": "launch",
             "mainClass": "Ejercicios5.Ejercicio10",
