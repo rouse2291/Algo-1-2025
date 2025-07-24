@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EjArrays2",
+            "request": "launch",
+            "mainClass": "EjArrays2",
+            "projectName": "Algo 1 2025_e0061383"
+        },
+        {
+            "type": "java",
             "name": "Arrays6",
             "request": "launch",
             "mainClass": "Arrays6",
