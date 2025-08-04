@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArraysBi3",
+            "request": "launch",
+            "mainClass": "ArraysBi3",
+            "projectName": "Algo 1 2025_e0061383"
+        },
+        {
+            "type": "java",
+            "name": "ArraysBi2",
+            "request": "launch",
+            "mainClass": "ArraysBi2",
+            "projectName": "Algo 1 2025_e0061383"
+        },
+        {
+            "type": "java",
             "name": "ArrayBi1",
             "request": "launch",
             "mainClass": "ArrayBi1",
