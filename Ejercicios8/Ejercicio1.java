@@ -2,29 +2,31 @@ package Ejercicios8;
 
 public class Ejercicio1 {
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
+        int[][] num = new int[3][6];
+        num[0][0] = 0;
+        num[0][1] = 30;
+        num[0][2] = 2;
+        num[0][5] = 5;
+        num[1][0] = 75;
+        num[1][4] = 0;
+        num[2][2] = -2;
+        num[2][3] = 9;
+        num[2][5] = 11;
 
-        int [][] n = new int [3][6];
-
-        n [0][0] = 0;
-        n [0][1] = 30;
-        n [0][2] = 2;
-        n [0][4] = 0;
-        n [0][5] = 5;
-        n [1][0] = 75;
-        n [2][3] = 9;
-        n [2][4] = 11;
-
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 6; j++) {
-                System.out.printf("%10d", n[i][j]);
-
-            }
-
-            System.out.println();
-
+        int f, c;
+        System.out.print("        ");
+        for (c = 0; c < 6; c++) {
+            System.out.print("    Columna " + c);
         }
 
+        for (f = 0; f < 3; f++) {
+            System.out.print("\nFila " + f);
+            for (c = 0; c < 6; c++) {
+                System.out.printf("%9d    ",num[f][c]);
+            }
+
+        }
 
     }
 }
