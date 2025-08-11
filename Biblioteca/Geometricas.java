@@ -1,7 +1,7 @@
-package Geometricas;
+package Biblioteca;
 
-public class Formas {
-    
+public class Geometricas {
+ 
     //volumen de un cilindro
     //longitud de circunferencia de un cilindro
 public static double miVolumen(int x, int y){
